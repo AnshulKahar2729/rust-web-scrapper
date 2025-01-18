@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXIST products {
+    id SERIAL PRIMARY KEY,
+    name VARCHAR NOT NULL,
+    prce VARCHAR NOT NULL,
+    old_price VARCHAR,
+    link VARCHAR,
+    scraped_at TIMESTAMP NOT NULL DEFAULT CURRENT_DATE
+};
+

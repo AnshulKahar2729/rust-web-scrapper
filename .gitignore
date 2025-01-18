@@ -1,0 +1,26 @@
+# Ignore the target directory where compiled files are stored
+/target/
+
+# Ignore build artifacts and intermediate files
+**/*.rs.bk
+**/*.rs.swp
+**/*.rs.swo
+
+# Ignore Cargo.lock if you're building a library
+# (this file is generated automatically and should not be committed)
+Cargo.lock
+
+# Ignore the node_modules directory if you're using Node.js for frontend
+/node_modules/
+
+# Ignore the .env file if you're using environment variables
+.env
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.iml
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+[package]
+name = "web-scrapper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.39"
+reqwest = "0.12.12"
+scraper = "0.22.0"
+shuttle-shared-db = { version = "0.51.0", features = ["postgres"] }
+sqlx = { version = "0.8.3", features = ["runtime-tokio-native-tls", "postgres"] }
+tracing = "0.1.41"
